@@ -1,0 +1,139 @@
+OLIST E-COMMERCE DATASET SUMMARY
+============================================================
+
+File: olist_customers_dataset.csv
+Rows: 99441
+Columns: 5
+Column names: customer_id, customer_unique_id, customer_zip_code_prefix, customer_city, customer_state
+
+Missing values:
+customer_id                 0
+customer_unique_id          0
+customer_zip_code_prefix    0
+customer_city               0
+customer_state              0
+
+------------------------------------------------------------
+
+File: olist_geolocation_dataset.csv
+Rows: 1000163
+Columns: 5
+Column names: geolocation_zip_code_prefix, geolocation_lat, geolocation_lng, geolocation_city, geolocation_state
+
+Missing values:
+geolocation_zip_code_prefix    0
+geolocation_lat                0
+geolocation_lng                0
+geolocation_city               0
+geolocation_state              0
+
+------------------------------------------------------------
+
+File: olist_order_items_dataset.csv
+Rows: 112650
+Columns: 7
+Column names: order_id, order_item_id, product_id, seller_id, shipping_limit_date, price, freight_value
+
+Missing values:
+order_id               0
+order_item_id          0
+product_id             0
+seller_id              0
+shipping_limit_date    0
+price                  0
+freight_value          0
+
+------------------------------------------------------------
+
+File: olist_order_payments_dataset.csv
+Rows: 103886
+Columns: 5
+Column names: order_id, payment_sequential, payment_type, payment_installments, payment_value
+
+Missing values:
+order_id                0
+payment_sequential      0
+payment_type            0
+payment_installments    0
+payment_value           0
+
+------------------------------------------------------------
+
+File: olist_order_reviews_dataset.csv
+Rows: 99224
+Columns: 7
+Column names: review_id, order_id, review_score, review_comment_title, review_comment_message, review_creation_date, review_answer_timestamp
+
+Missing values:
+review_id                      0
+order_id                       0
+review_score                   0
+review_comment_title       87656
+review_comment_message     58247
+review_creation_date           0
+review_answer_timestamp        0
+
+------------------------------------------------------------
+
+File: olist_orders_dataset.csv
+Rows: 99441
+Columns: 8
+Column names: order_id, customer_id, order_status, order_purchase_timestamp, order_approved_at, order_delivered_carrier_date, order_delivered_customer_date, order_estimated_delivery_date
+
+Missing values:
+order_id                            0
+customer_id                         0
+order_status                        0
+order_purchase_timestamp            0
+order_approved_at                 160
+order_delivered_carrier_date     1783
+order_delivered_customer_date    2965
+order_estimated_delivery_date       0
+
+------------------------------------------------------------
+
+File: olist_products_dataset.csv
+Rows: 32951
+Columns: 9
+Column names: product_id, product_category_name, product_name_lenght, product_description_lenght, product_photos_qty, product_weight_g, product_length_cm, product_height_cm, product_width_cm
+
+Missing values:
+product_id                      0
+product_category_name         610
+product_name_lenght           610
+product_description_lenght    610
+product_photos_qty            610
+product_weight_g                2
+product_length_cm               2
+product_height_cm               2
+product_width_cm                2
+
+------------------------------------------------------------
+
+File: olist_sellers_dataset.csv
+Rows: 3095
+Columns: 4
+Column names: seller_id, seller_zip_code_prefix, seller_city, seller_state
+
+Missing values:
+seller_id                 0
+seller_zip_code_prefix    0
+seller_city               0
+seller_state              0
+
+------------------------------------------------------------
+
+File: product_category_name_translation.csv
+Rows: 71
+Columns: 2
+Column names: product_category_name, product_category_name_english
+
+Missing values:
+product_category_name            0
+product_category_name_english    0
+
+------------------------------------------------------------
+
+
+Total CSV files: 9
+Total rows across files: 1550922

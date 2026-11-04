@@ -218,3 +218,75 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# ==============================
+# Environment variables and secrets
+# ==============================
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# ==============================
+# Python virtual environments
+# ==============================
+ecom_venv/
+.venv/
+venv/
+env/
+
+# ==============================
+# Python cache files
+# ==============================
+__pycache__/
+*.py[cod]
+*$py.class
+
+# ==============================
+# Jupyter Notebook
+# ==============================
+.ipynb_checkpoints/
+
+# ==============================
+# IDE and editor files
+# ==============================
+.vscode/
+.idea/
+
+# ==============================
+# Operating system files
+# ==============================
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ==============================
+# Logs and temporary files
+# ==============================
+*.log
+*.tmp
+
+# ==============================
+# DuckDB database files
+# ==============================
+*.duckdb
+*.duckdb.wal
+
+# ==============================
+# Generated datasets
+# ==============================
+data/raw/
+data/processed/
+data/gold/
+
+# ==============================
+# Spark temporary output
+# ==============================
+spark-warehouse/
+metastore_db/
+
+# ==============================
+# Streamlit secrets
+# ==============================
+.streamlit/secrets.toml

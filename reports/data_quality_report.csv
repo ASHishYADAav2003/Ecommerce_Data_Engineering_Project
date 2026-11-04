@@ -1,0 +1,31 @@
+Check,Result
+Customers row count,99441
+Orders row count,99441
+Order Items row count,112650
+Payments row count,103886
+Reviews row count,99224
+Products row count,32951
+Sellers row count,3095
+Customers missing customer_id,0
+Orders missing order_id,0
+Orders missing customer_id,0
+Order Items missing order_id,0
+Order Items missing product_id,0
+Order Items missing seller_id,0
+Payments missing order_id,0
+Reviews missing order_id,0
+Products missing product_id,0
+Sellers missing seller_id,0
+Customers duplicate keys,0
+Orders duplicate keys,0
+Order Items duplicate keys,0
+Payments duplicate keys,0
+Reviews duplicate keys,814
+Products duplicate keys,0
+Sellers duplicate keys,0
+Orders without matching customers,0
+Order items without matching orders,0
+Order items without matching products,0
+Order items without matching sellers,0
+Payments without matching orders,0
+Reviews without matching orders,0
